@@ -1,0 +1,125 @@
+
+*{font-family : 'Sofia', cursive;}
+body{background:url('https://tse4.mm.bing.net/th?id=OIP.mu6DkSm1PPCV6kOtvaNF-QHaEK&pid=Api&P=0');
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+overflow:hidden;}
+img{
+    margin-top: 2%;
+    width:10px;
+    height:20px;
+}
+.heading{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:30px;
+    font-size:60px;
+
+}
+h3{
+    color:gray;
+    
+}
+
+.box{
+
+    max-width:405px;
+    margin:135px auto;
+    background:#fff;
+    margin-top:60px;
+    border-radius:7px;
+    padding:28px 0;
+}
+.i{
+    height:52px;
+    width:350px;
+    padding-left:3%;
+    
+    position:relative;
+}
+.i img{
+    position:absolute;
+    padding-left:3%;
+    padding-top:2.5%;
+}
+.i input{
+    height:100%;
+    width:100%;
+    outline:none;
+    font-size:18px;
+    border:1px solid #999;
+    border-radius:3px;
+    padding-left:6.5%;
+}
+.i input::placeholder{
+    color:#bfbfbf;
+}
+.c , li{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.c{
+    display:flex;
+    justify-content:space-between;
+    padding:18px 25px;
+    border-bottom:1px solid #ccc;
+}
+
+.f span{
+    cursor:pointer;
+    margin:0 7px;
+    font-size:17px;
+}
+.f span:first-child{
+    margin-left:0;
+}
+.f span.active{
+    color:rgb(181, 20, 160);
+}
+.c .clear{
+    outline:none;
+    border:none;
+    color:whitesmoke;
+    cursor:pointer;
+    
+    background:rgb(134, 128, 128);
+    border-radius:4px;
+    padding:7 px 13px;
+}
+.taskbox{
+    margin:15px 10px;
+    
+    padding-left:5px;
+}
+.taskbox .task{
+    list-style:none;
+    font-size:17px;
+    margin-bottom:18px;
+    padding-bottom:16px;
+    border-bottom:1px solid #ccc;
+}
+.taskbox .task:last-child{
+    margin-bottom:0;
+    border-bottom:0;
+    padding-bottom:0;
+}
+.task label{
+    display:flex;
+}
+.task label input{
+    margin-top : 6px;
+    margin-right:12px;
+
+}
+.m{
+    overflow-y:hidden;
+    max-width: 270px;
+    text-overflow: ellipsis;
+}
+.taskbox.overflow{
+    overflow-y: auto;
+    max-height:300px;
+}

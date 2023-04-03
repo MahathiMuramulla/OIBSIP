@@ -1,0 +1,73 @@
+
+body{
+    background-color:black;
+    display:flex;
+
+}
+h2{
+    font-family: 'Sofia', cursive;
+    font-size:45px;
+    position:fixed;
+    top:3%;
+    left:35%;
+}
+
+.font{
+        text-shadow: 0 0 0.1em #fff, 0 0 0.2em #fff, 0 0 0.3em #fff, 0 0 0.4em #f7f,0 0 0.6em #f0f, 0 0 0.8em #f0f, 0 0 1.0em #f0f, 0 0 1.2em #f0f;
+        color: #fff;
+}
+.container{
+    width:57vmin;
+    position:absolute;
+    top:59%;
+    left:20%;
+    transform:translate(-50%,-50%);
+    border:5px solid whitesmoke;
+    border-radius:8px;
+    box-shadow:0 0 0.1em #fff, 0 0 0.2em #fff, 0 0 0.3em #fff, 0 0 0.4em #f7f,0 0 0.6em #f0f, 0 0 0.8em #f0f, 0 0 1.0em #f0f, 0 0 1.2em #f0f;;
+    overflow:hidden;
+}
+.ic{
+    width:100%;
+    display:flex;
+    animation:slide 16s infinite;
+}
+img{
+    width:100%;
+}
+@keyframes slide{
+    0%{
+        transform:translateX(0);
+    }
+    25%{
+        transform:translateX(0);
+    }
+    30%{
+        transform:translateX(-100%);
+    }
+    50%{
+        transform:translateX(-100%);
+    }
+    55%{
+        transform:translateX(-200%);
+    }
+    75%{
+        transform:translateX(-200%);
+    }
+    80%{
+        transform:translateX(-300%);
+    }
+    100%{
+        transform:translateX(-300%);
+    }
+}
+.pg{
+    color:aliceblue;
+    text-align:justify;
+    margin-left:600px;
+    margin-top:220px;
+    font-size:20px;
+    width:100vmin;
+    
+}
+
